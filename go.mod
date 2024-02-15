@@ -1,4 +1,4 @@
-module github.com/UristLikot/libsignal-protocol-go
+module github.com/UristLikot/libsignal
 
 go 1.18
 

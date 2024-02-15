@@ -3,16 +3,16 @@ package session
 import (
 	"fmt"
 
-	"go.mau.fi/libsignal/cipher"
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/keys/chain"
-	"go.mau.fi/libsignal/keys/message"
-	"go.mau.fi/libsignal/logger"
-	"go.mau.fi/libsignal/protocol"
-	"go.mau.fi/libsignal/signalerror"
-	"go.mau.fi/libsignal/state/record"
-	"go.mau.fi/libsignal/state/store"
-	"go.mau.fi/libsignal/util/bytehelper"
+	"github.com/UristLikot/libsignal/cipher"
+	"github.com/UristLikot/libsignal/ecc"
+	"github.com/UristLikot/libsignal/keys/chain"
+	"github.com/UristLikot/libsignal/keys/message"
+	"github.com/UristLikot/libsignal/logger"
+	"github.com/UristLikot/libsignal/protocol"
+	"github.com/UristLikot/libsignal/signalerror"
+	"github.com/UristLikot/libsignal/state/record"
+	"github.com/UristLikot/libsignal/state/store"
+	"github.com/UristLikot/libsignal/util/bytehelper"
 )
 
 const maxFutureMessages = 2000

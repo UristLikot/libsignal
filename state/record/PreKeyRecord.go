@@ -1,9 +1,9 @@
 package record
 
 import (
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/util/bytehelper"
-	"go.mau.fi/libsignal/util/optional"
+	"github.com/UristLikot/libsignal/ecc"
+	"github.com/UristLikot/libsignal/util/bytehelper"
+	"github.com/UristLikot/libsignal/util/optional"
 )
 
 // PreKeySerializer is an interface for serializing and deserializing

@@ -8,12 +8,12 @@ import (
 	"errors"
 	"fmt"
 
-	"go.mau.fi/libsignal/cipher"
-	"go.mau.fi/libsignal/ecc"
+	"github.com/UristLikot/libsignal/cipher"
+	"github.com/UristLikot/libsignal/ecc"
 
-	"go.mau.fi/libsignal/kdf"
-	"go.mau.fi/libsignal/keys/root"
-	"go.mau.fi/libsignal/util/bytehelper"
+	"github.com/UristLikot/libsignal/kdf"
+	"github.com/UristLikot/libsignal/keys/root"
+	"github.com/UristLikot/libsignal/util/bytehelper"
 )
 
 type ProvisionMessage struct {

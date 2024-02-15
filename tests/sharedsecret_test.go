@@ -2,9 +2,9 @@ package tests
 
 import (
 	"encoding/base64"
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/kdf"
-	"go.mau.fi/libsignal/logger"
+	"github.com/UristLikot/libsignal/ecc"
+	"github.com/UristLikot/libsignal/kdf"
+	"github.com/UristLikot/libsignal/logger"
 	"testing"
 )
 

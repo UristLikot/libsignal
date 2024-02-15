@@ -6,9 +6,9 @@ import (
 	"encoding/binary"
 	"time"
 
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/keys/identity"
-	"go.mau.fi/libsignal/state/record"
+	"github.com/UristLikot/libsignal/ecc"
+	"github.com/UristLikot/libsignal/keys/identity"
+	"github.com/UristLikot/libsignal/state/record"
 )
 
 // GenerateIdentityKeyPair generates an identity keypair used for

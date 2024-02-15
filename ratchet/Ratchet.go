@@ -6,11 +6,11 @@ import (
 	"encoding/base64"
 	"encoding/binary"
 
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/kdf"
-	"go.mau.fi/libsignal/keys/chain"
-	"go.mau.fi/libsignal/keys/root"
-	"go.mau.fi/libsignal/keys/session"
+	"github.com/UristLikot/libsignal/ecc"
+	"github.com/UristLikot/libsignal/kdf"
+	"github.com/UristLikot/libsignal/keys/chain"
+	"github.com/UristLikot/libsignal/keys/root"
+	"github.com/UristLikot/libsignal/keys/session"
 )
 
 var b64 = base64.StdEncoding.EncodeToString

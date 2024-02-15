@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"go.mau.fi/libsignal/serialize"
+	"github.com/UristLikot/libsignal/serialize"
 )
 
 // newSerializer will return a JSON serializer for testing.

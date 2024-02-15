@@ -4,17 +4,17 @@ package session
 import (
 	"fmt"
 
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/keys/prekey"
-	"go.mau.fi/libsignal/logger"
-	"go.mau.fi/libsignal/protocol"
-	"go.mau.fi/libsignal/ratchet"
-	"go.mau.fi/libsignal/serialize"
-	"go.mau.fi/libsignal/signalerror"
-	"go.mau.fi/libsignal/state/record"
-	"go.mau.fi/libsignal/state/store"
-	"go.mau.fi/libsignal/util/medium"
-	"go.mau.fi/libsignal/util/optional"
+	"github.com/UristLikot/libsignal/ecc"
+	"github.com/UristLikot/libsignal/keys/prekey"
+	"github.com/UristLikot/libsignal/logger"
+	"github.com/UristLikot/libsignal/protocol"
+	"github.com/UristLikot/libsignal/ratchet"
+	"github.com/UristLikot/libsignal/serialize"
+	"github.com/UristLikot/libsignal/signalerror"
+	"github.com/UristLikot/libsignal/state/record"
+	"github.com/UristLikot/libsignal/state/store"
+	"github.com/UristLikot/libsignal/util/medium"
+	"github.com/UristLikot/libsignal/util/optional"
 )
 
 // NewBuilder constructs a session builder.
@@ -56,9 +56,9 @@ func NewBuilderFromSignal(signalStore store.SignalProtocol,
 // used to encrypt/decrypt messages in that session.
 //
 // Sessions are built from one of three different vectors:
-//   * PreKeyBundle retrieved from a server.
-//   * PreKeySignalMessage received from a client.
-//   * KeyExchangeMessage sent to or received from a client.
+//   - PreKeyBundle retrieved from a server.
+//   - PreKeySignalMessage received from a client.
+//   - KeyExchangeMessage sent to or received from a client.
 //
 // Sessions are constructed per recipientId + deviceId tuple.
 // Remote logical users are identified by their recipientId,

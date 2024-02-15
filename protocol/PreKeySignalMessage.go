@@ -3,10 +3,10 @@ package protocol
 import (
 	"fmt"
 
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/keys/identity"
-	"go.mau.fi/libsignal/signalerror"
-	"go.mau.fi/libsignal/util/optional"
+	"github.com/UristLikot/libsignal/ecc"
+	"github.com/UristLikot/libsignal/keys/identity"
+	"github.com/UristLikot/libsignal/signalerror"
+	"github.com/UristLikot/libsignal/util/optional"
 )
 
 // PreKeySignalMessageSerializer is an interface for serializing and deserializing

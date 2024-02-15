@@ -3,9 +3,9 @@
 package session
 
 import (
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/keys/chain"
-	"go.mau.fi/libsignal/keys/message"
+	"github.com/UristLikot/libsignal/ecc"
+	"github.com/UristLikot/libsignal/keys/chain"
+	"github.com/UristLikot/libsignal/keys/message"
 )
 
 // RootKeyable is an interface for all root key implementations that are part of

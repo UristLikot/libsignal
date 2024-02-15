@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	"go.mau.fi/libsignal/keys/prekey"
-	"go.mau.fi/libsignal/logger"
-	"go.mau.fi/libsignal/session"
-	"go.mau.fi/libsignal/state/record"
+	"github.com/UristLikot/libsignal/keys/prekey"
+	"github.com/UristLikot/libsignal/logger"
+	"github.com/UristLikot/libsignal/session"
+	"github.com/UristLikot/libsignal/state/record"
 )
 
 // TestSerializing tests serialization and deserialization of Signal objects.

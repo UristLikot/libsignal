@@ -2,7 +2,7 @@ package tests
 
 import (
 	"fmt"
-	"go.mau.fi/libsignal/fingerprint"
+	"github.com/UristLikot/libsignal/fingerprint"
 	"testing"
 )
 

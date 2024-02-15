@@ -3,9 +3,9 @@
 package serialize
 
 import (
-	groupRecord "go.mau.fi/libsignal/groups/state/record"
-	"go.mau.fi/libsignal/protocol"
-	"go.mau.fi/libsignal/state/record"
+	groupRecord "github.com/UristLikot/libsignal/groups/state/record"
+	"github.com/UristLikot/libsignal/protocol"
+	"github.com/UristLikot/libsignal/state/record"
 )
 
 // NewSerializer will return a new serializer object that will be used

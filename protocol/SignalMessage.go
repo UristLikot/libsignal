@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/keys/identity"
-	"go.mau.fi/libsignal/logger"
-	"go.mau.fi/libsignal/signalerror"
-	"go.mau.fi/libsignal/util/bytehelper"
+	"github.com/UristLikot/libsignal/ecc"
+	"github.com/UristLikot/libsignal/keys/identity"
+	"github.com/UristLikot/libsignal/logger"
+	"github.com/UristLikot/libsignal/signalerror"
+	"github.com/UristLikot/libsignal/util/bytehelper"
 )
 
 const MacLength int = 8

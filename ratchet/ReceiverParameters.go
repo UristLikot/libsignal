@@ -1,8 +1,8 @@
 package ratchet
 
 import (
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/keys/identity"
+	"github.com/UristLikot/libsignal/ecc"
+	"github.com/UristLikot/libsignal/keys/identity"
 )
 
 // NewReceiverParameters creates a structure with all the keys needed to construct

@@ -1,9 +1,9 @@
 package record
 
 import (
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/keys/identity"
-	"go.mau.fi/libsignal/util/bytehelper"
+	"github.com/UristLikot/libsignal/ecc"
+	"github.com/UristLikot/libsignal/keys/identity"
+	"github.com/UristLikot/libsignal/util/bytehelper"
 )
 
 // NewPendingKeyExchange will return a new PendingKeyExchange object.

@@ -1,7 +1,7 @@
 package store
 
 import (
-	"go.mau.fi/libsignal/keys/message"
+	"github.com/UristLikot/libsignal/keys/message"
 )
 
 // MessageKey store is an interface describing the optional local storage

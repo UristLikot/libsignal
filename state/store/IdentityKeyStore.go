@@ -1,8 +1,8 @@
 package store
 
 import (
-	"go.mau.fi/libsignal/keys/identity"
-	"go.mau.fi/libsignal/protocol"
+	"github.com/UristLikot/libsignal/keys/identity"
+	"github.com/UristLikot/libsignal/protocol"
 )
 
 // IdentityKey provides an interface to identity information.

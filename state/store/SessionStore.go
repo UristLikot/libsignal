@@ -1,8 +1,8 @@
 package store
 
 import (
-	"go.mau.fi/libsignal/protocol"
-	"go.mau.fi/libsignal/state/record"
+	"github.com/UristLikot/libsignal/protocol"
+	"github.com/UristLikot/libsignal/state/record"
 )
 
 // Session store is an interface for the persistent storage of session

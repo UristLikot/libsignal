@@ -1,16 +1,16 @@
 package record
 
 import (
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/kdf"
-	"go.mau.fi/libsignal/keys/chain"
-	"go.mau.fi/libsignal/keys/identity"
-	"go.mau.fi/libsignal/keys/message"
-	"go.mau.fi/libsignal/keys/root"
-	"go.mau.fi/libsignal/keys/session"
-	"go.mau.fi/libsignal/logger"
-	"go.mau.fi/libsignal/util/errorhelper"
-	"go.mau.fi/libsignal/util/optional"
+	"github.com/UristLikot/libsignal/ecc"
+	"github.com/UristLikot/libsignal/kdf"
+	"github.com/UristLikot/libsignal/keys/chain"
+	"github.com/UristLikot/libsignal/keys/identity"
+	"github.com/UristLikot/libsignal/keys/message"
+	"github.com/UristLikot/libsignal/keys/root"
+	"github.com/UristLikot/libsignal/keys/session"
+	"github.com/UristLikot/libsignal/logger"
+	"github.com/UristLikot/libsignal/util/errorhelper"
+	"github.com/UristLikot/libsignal/util/optional"
 )
 
 const maxMessageKeys int = 2000

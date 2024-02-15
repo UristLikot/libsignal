@@ -4,8 +4,8 @@ package chain
 import (
 	"crypto/hmac"
 	"crypto/sha256"
-	"go.mau.fi/libsignal/kdf"
-	"go.mau.fi/libsignal/keys/message"
+	"github.com/UristLikot/libsignal/kdf"
+	"github.com/UristLikot/libsignal/keys/message"
 )
 
 var messageKeySeed = []byte{0x01}

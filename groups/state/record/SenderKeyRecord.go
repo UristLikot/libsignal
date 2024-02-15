@@ -3,8 +3,8 @@ package record
 import (
 	"fmt"
 
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/signalerror"
+	"github.com/UristLikot/libsignal/ecc"
+	"github.com/UristLikot/libsignal/signalerror"
 )
 
 const maxStates = 5

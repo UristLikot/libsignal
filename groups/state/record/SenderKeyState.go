@@ -1,9 +1,9 @@
 package record
 
 import (
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/groups/ratchet"
-	"go.mau.fi/libsignal/util/bytehelper"
+	"github.com/UristLikot/libsignal/ecc"
+	"github.com/UristLikot/libsignal/groups/ratchet"
+	"github.com/UristLikot/libsignal/util/bytehelper"
 )
 
 const maxMessageKeys = 2000
